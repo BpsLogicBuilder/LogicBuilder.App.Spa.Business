@@ -1,3 +1,4 @@
+* 2026-09-04 - AB#224: Ensure strong name on LogicBuilder.App.Spa.Business.
 * 2026-09-04 - AB#224: Fix SonarQube warnings.
 * 2026-09-04 - AB#224: Add package metdata.
 * 2026-09-04 - AB#224: Add CI?CD workflows.
