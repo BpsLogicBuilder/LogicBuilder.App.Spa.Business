@@ -37,6 +37,11 @@
 		<PackageReference Include="LogicBuilder.App.Spa.Forms.Configuration" Version="1.0.2" />
 		<PackageReference Include="LogicBuilder.App.Spa.Forms.Parameters" Version="1.0.3" />
 		<PackageReference Include="LogicBuilder.Domain" Version="8.0.1" />
+		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="10.0.400" PrivateAssets="All" />
+		<PackageReference Include="MinVer" Version="7.0.0">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
 	</ItemGroup>
 
 </Project>
