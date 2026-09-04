@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<PackageId>LogicBuilder.App.Spa.Business</PackageId>
+		<Authors>BlaiseD</Authors>
+		<LangVersion>latest</LangVersion>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="LogicBuilder.App.Spa.Forms.Configuration" Version="1.0.2" />
+		<PackageReference Include="LogicBuilder.App.Spa.Forms.Parameters" Version="1.0.3" />
+		<PackageReference Include="LogicBuilder.Domain" Version="8.0.1" />
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="LogicBuilder.App.Spa.Business.Tests/LogicBuilder.App.Spa.Business.Tests.csproj" />
+  <Project Path="LogicBuilder.App.Spa.Business/LogicBuilder.App.Spa.Business.csproj" />
+</Solution>
