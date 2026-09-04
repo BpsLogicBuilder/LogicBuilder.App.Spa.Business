@@ -27,8 +27,8 @@
             Assert.NotNull(result);
             Assert.Equal(model.BrandText, result.BrandText);
             Assert.Equal(model.CurrentModule, result.CurrentModule);
-            Assert.Single(result.MenuItems);
-            Assert.True(result.MenuItems[0].Active);
+            var item = Assert.Single(result.MenuItems);
+            Assert.True(item.Active);
         }
     }
 }

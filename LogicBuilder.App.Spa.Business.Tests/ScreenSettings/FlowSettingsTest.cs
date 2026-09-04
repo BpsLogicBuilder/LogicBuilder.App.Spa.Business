@@ -32,10 +32,10 @@
 
             Assert.NotNull(result);
             Assert.NotNull(result.FlowState);
-            Assert.Equal(model.FlowState.Driver, result.FlowState.Driver);
+            Assert.Equal(model.FlowState!.Driver, result.FlowState.Driver);
             Assert.NotNull(result.NavigationBar);
-            Assert.Equal(model.NavigationBar.BrandText, result.NavigationBar.BrandText);
-            Assert.IsType<LogicBuilder.App.Spa.Business.ScreenSettings.Views.ScreenSettings<string>>(result.ScreenSettings);
+            Assert.Equal(model.NavigationBar!.BrandText, result.NavigationBar.BrandText);
+            Assert.IsType<ScreenSettings<string>>(result.ScreenSettings);
         }
     }
 }
