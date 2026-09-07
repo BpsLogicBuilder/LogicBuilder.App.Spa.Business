@@ -1,3 +1,4 @@
+* 2026-09-07 - AB#210: Prefer flow items dictionary over individual members.
 * 2026-09-04 - AB#224: Install MinVer.
 * 2026-09-04 - AB#224: Ensure strong name on LogicBuilder.App.Spa.Business.
 * 2026-09-04 - AB#224: Fix SonarQube warnings.
