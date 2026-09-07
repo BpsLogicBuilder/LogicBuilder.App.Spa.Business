@@ -6,6 +6,7 @@ using System.Text.Json;
 
 namespace LogicBuilder.App.Spa.Business.Requests.Json
 {
+    [System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
     public class RequestConverter : JsonTypeConverter<RequestBase>
     {
         public override string TypePropertyName => nameof(RequestBase.ViewType);
