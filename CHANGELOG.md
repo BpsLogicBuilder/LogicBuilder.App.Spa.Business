@@ -1,3 +1,5 @@
+* 2026-09-30 - AB#231: Latest packages.
+* 2026-09-30 - AB#231: Add Chat ViewType.
 * 2026-09-07 - AB#210: NuGet Updates.
 * 2026-09-07 - AB#210: Prefer flow items dictionary over individual members.
 * 2026-09-04 - AB#224: Install MinVer.
