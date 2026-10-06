@@ -1,3 +1,4 @@
+* 2026-10-05 - AB#231: Latest Spa.Forms.Parameters/Configuration for Agent Chat.
 * 2026-09-30 - AB#231: Latest packages.
 * 2026-09-30 - AB#231: Add Chat ViewType.
 * 2026-09-07 - AB#210: NuGet Updates.
