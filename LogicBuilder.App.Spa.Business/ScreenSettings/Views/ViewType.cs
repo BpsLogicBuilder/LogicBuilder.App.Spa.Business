@@ -21,6 +21,8 @@ namespace LogicBuilder.App.Spa.Business.ScreenSettings.Views
         [AlsoKnownAs("ViewType.FlowComplete")]
         FlowComplete,
         [AlsoKnownAs("ViewType.Exception")]
-        Exception
+        Exception,
+        [AlsoKnownAs("ViewType.Chat")]
+        Chat
     }
 }
